@@ -15,6 +15,7 @@ A structured **Java-based Data Structures and Algorithms (DSA)** workspace desig
 
 ## 🏗️ Project Structure
 
+```text
 DSAWorkspaceSheetBased/
 │
 ├── src/
@@ -22,10 +23,11 @@ DSAWorkspaceSheetBased/
 │   │   ├── Capitalise.java
 │   │   ├── CountVowels.java
 │   │   ├── DistinctNumberBasic.java
-│   │   ├── …
+│   │   ├── ...
 │   │   └── twopointer/
 │   │       ├── RemoveDuplicates26LeetCode.java
 │   │       └── TwoSum167LeetCode.java
+│   │
 │   └── shradhamam/
 │       └── array/
 │           └── MaximumSubArray.java
