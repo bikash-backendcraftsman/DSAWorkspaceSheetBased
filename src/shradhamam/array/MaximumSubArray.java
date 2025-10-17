@@ -6,5 +6,4 @@ public class MaximumSubArray {
        //int sum = findSubArraySum(array);
     }
 
-
 }
