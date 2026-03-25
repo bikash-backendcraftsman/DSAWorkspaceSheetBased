@@ -5,9 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/ContainsDuplicate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shradhamam/array/MaximumSubArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/shradhamam/array/MaximumSubArray.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/usingAI" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/CreatingHashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapAllkeysFetchOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapCompute_Method.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapJava8_Improvements.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapOperation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/FindDuplicateusingHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/HashSetImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/HashSetIteration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/sortingTechnique/HashSetSortingTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/ArrayList_IterationTechnique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/ListSorting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/CustomSortingUsingLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/LinkedListSortingDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/VehicleMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/treeSetData/CreatingTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/collection/treeSetData/NumberGreaterThanFifty_UsingTreeSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/ExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/HttpConnect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/checkedException/CheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/checkedException/HTTPConnectChecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/OnlinePaymentProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/PaymentProcessing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/RuleOneDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/CachedFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/CloudFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/FileServiceDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/LocalFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/SecureFileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentRuntimeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/CryptoPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/OnlinePaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/PymentServiceRuleThree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/UPIPaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/unchekedException/HttpConnectUnchecked.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/unchekedException/UncheckedExceptionDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/jvmInternal/JVM_ClassLoaderConceptsExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/CreatingMainThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/SumThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/SumThreadDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/ThreadWithRunnable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/SleepDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/ThreadSleepExamplesToUnderstandMore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/ThreadSleepSchedulling.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/Worker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/thread-execution-timeline.md " afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/Abstraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/CreditCardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/EmailService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/InvoiceGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/NotificationManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/PaymentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/EmailNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/NotificationManagerImplementation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/NotificationService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/PushNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/SmsNotification.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchForIndia.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchForJapan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/GermanyJobSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/JapanJobSearch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/JobSearchStrategy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/SearchJobGoodCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/BankAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/BankAccount_BadCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/LaptopBadCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/UserEncapsulated.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/AbstractPaymentprocessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/CardPayment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/Main_AbstractImplementInterfaceDesign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/PaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/UPIPaymentProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/Choose_Abstract_Versus_Interface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/MarkerInterfaceUnderstanding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/RulesOfInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Vehicle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/baddesign/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/HRService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/HiringManageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/LeaveManageable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/PayrollService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/SalaryCalculable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/corejava/regularexpression/RegularExpressionMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/MergeTwoSortedArrays.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interview/SortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/SquresOfSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/striverAtoZ/sorting/Leetcode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/CheckIfArrayIsSortedOrNot.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/MaximumConsecutiveOne_Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/SecondLargestElementInArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FindUniqueAndDuplicate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FreqOfAllWordsInSentense.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FreqSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/HighestOccuringElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/MostFrequentWordInSentence.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/CountdownRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/FactorialUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/FibonaceeUsingRecursion.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/SumOfFirstN_Numbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/sorting/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/Isomerphic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/LargestOddNumberInString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/LongestCommonPrefix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/PalindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ReverseAnStringArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ReverseVowels.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/SortCharacterByFrequency_UsingHashSet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/SortCharacterFrequencyUsing_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ValidAnagram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/LargestOddNumberInAString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/PallindromeCheck.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/ReverseStringSecondProblem.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/striverAtoZ/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striverAtoZ/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +147,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="module-info" />
+        <option value="package-info" />
         <option value="Class" />
       </list>
     </option>
@@ -30,12 +163,15 @@
     &quot;assignee&quot;: &quot;brojecha&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/bikash-backendcraftsman/DSAWorkspaceSheetBased.git",
-    "accountId": "c1a9741e-5f56-4549-9571-75f37b656b24"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/bikash-backendcraftsman/DSAWorkspaceSheetBased.git&quot;,
+    &quot;accountId&quot;: &quot;c1a9741e-5f56-4549-9571-75f37b656b24&quot;
   }
-}]]></component>
+}</component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/src/tufRevesion/basicString/PallindromeCheck.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 7
 }</component>
@@ -44,43 +180,108 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Capitalise.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ContainsDuplicate.executor&quot;: &quot;Run&quot;,
-    &quot;Application.CountVowels.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctNumberBasic.executor&quot;: &quot;Run&quot;,
-    &quot;Application.DistinctNumberBasicOptimIzed.executor&quot;: &quot;Run&quot;,
-    &quot;Application.FindElement.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.MostFrequent.executor&quot;: &quot;Run&quot;,
-    &quot;Application.PostFixExpression.executor&quot;: &quot;Run&quot;,
-    &quot;Application.RemoveDuplicates26LeetCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchTargetBruteForce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SearchTargetOptimized.executor&quot;: &quot;Run&quot;,
-    &quot;Application.SortArrayInLexicoGraphically.executor&quot;: &quot;Run&quot;,
-    &quot;Application.StringTimeComplexity.executor&quot;: &quot;Run&quot;,
-    &quot;Application.TwoSum167LeetCode.executor&quot;: &quot;Run&quot;,
-    &quot;Application.UniqueWordsOptimized.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/bikashmohapatra/JavaWorkspace/DSAWorkspaceSheetBased&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;leetcode.id&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Application.executor": "Run",
+    "Application.ArrayList_IterationTechnique.executor": "Run",
+    "Application.Capitalise.executor": "Run",
+    "Application.CheckIfArrayIsSortedOrNot.executor": "Run",
+    "Application.ContainsDuplicate.executor": "Run",
+    "Application.CountVowels.executor": "Run",
+    "Application.CountdownRecursion.executor": "Run",
+    "Application.CreatingHashMap.executor": "Run",
+    "Application.CreatingMainThread.executor": "Debug",
+    "Application.CreatingTreeSet.executor": "Run",
+    "Application.CreditCardPayment.executor": "Run",
+    "Application.CustomSortingUsingLinkedList.executor": "Run",
+    "Application.DistinctNumberBasic.executor": "Run",
+    "Application.DistinctNumberBasicOptimIzed.executor": "Run",
+    "Application.ExceptionDemo.executor": "Run",
+    "Application.FactorialUsingRecursion.executor": "Run",
+    "Application.FibonaceeUsingRecursion.executor": "Debug",
+    "Application.FindDuplicateusingHashSet.executor": "Run",
+    "Application.FindElement.executor": "Debug",
+    "Application.FindUniqueAndDuplicate.executor": "Run",
+    "Application.FizzBuzz.executor": "Run",
+    "Application.FreqOfAllWordsInSentense.executor": "Run",
+    "Application.FreqSum.executor": "Run",
+    "Application.HashMapAllkeysFetchOperation.executor": "Run",
+    "Application.HashMapCompute_Method.executor": "Run",
+    "Application.HashMapOperation.executor": "Run",
+    "Application.HashSetImplementation.executor": "Run",
+    "Application.HashSetIteration.executor": "Run",
+    "Application.HashSetSortingTechnique.executor": "Run",
+    "Application.HighestOccuringElement.executor": "Run",
+    "Application.Isomerphic.executor": "Run",
+    "Application.Laptop.executor": "Run",
+    "Application.LargestOddNumberInAString.executor": "Run",
+    "Application.LargestOddNumberInString.executor": "Run",
+    "Application.Leetcode.executor": "Debug",
+    "Application.LinkedListSortingDemo.executor": "Run",
+    "Application.LongestCommonPrefix.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.MaximumConsecutiveOne_Array.executor": "Run",
+    "Application.MostFrequent.executor": "Run",
+    "Application.MostFrequentWordInSentence.executor": "Debug",
+    "Application.MoveZeroesToEnd.executor": "Run",
+    "Application.NotificationManager.executor": "Run",
+    "Application.NumberGreaterThanFifty_UsingTreeSet.executor": "Run",
+    "Application.PalindromeCheck.executor": "Run",
+    "Application.PallindromeCheck.executor": "Run",
+    "Application.PostFixExpression.executor": "Run",
+    "Application.RegularExpressionMain.executor": "Run",
+    "Application.RemoveDuplicates26LeetCode.executor": "Run",
+    "Application.ReverseAnStringArray.executor": "Debug",
+    "Application.ReverseStringSecondProblem.executor": "Run",
+    "Application.RuleOneDemo.executor": "Run",
+    "Application.SearchTargetBruteForce.executor": "Run",
+    "Application.SearchTargetOptimized.executor": "Run",
+    "Application.SecondHighestElement.executor": "Run",
+    "Application.SecondLargestElementInArray.executor": "Debug",
+    "Application.SleepDemo.executor": "Debug",
+    "Application.SortArrayInLexicoGraphically.executor": "Run",
+    "Application.SortCharacterByFrequency_UsingHashSet.executor": "Run",
+    "Application.SortCharacterFrequencyUsing_HashMap.executor": "Run",
+    "Application.SortedArray.executor": "Debug",
+    "Application.SquresOfSortedArray.executor": "Run",
+    "Application.StringTimeComplexity.executor": "Run",
+    "Application.SumOfFirstN_Numbers.executor": "Run",
+    "Application.SumOfHighestAndLowestFrequency.executor": "Run",
+    "Application.SumThreadDemo.executor": "Debug",
+    "Application.ThreadSleepExamplesToUnderstandMore.executor": "Run",
+    "Application.ThreadSleepSchedulling.executor": "Debug",
+    "Application.ThreadWithRunnable.executor": "Debug",
+    "Application.TwoSum167LeetCode.executor": "Run",
+    "Application.UncheckedExceptionDemo.executor": "Run",
+    "Application.UniqueWordsOptimized.executor": "Run",
+    "Application.UserEncapsulated.executor": "Run",
+    "Application.ValidAnagram.executor": "Run",
+    "Application.ValidPalindrome.executor": "Run",
+    "Application.VehicleMain.executor": "Run",
+    "Application.corejava.collection.sortingTechnique.Main.executor": "Run",
+    "Application.corejava.oops.abstraction.interfacedesign.goodCode.Application.executor": "Run",
+    "Application.corejava.oops.interfacee.defaultt.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/bikashmohapatra/Dev/Projects/java-workspace/DSAWorkspaceSheetBased",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.rainbow.brackets.stop.list"
   }
-}</component>
-  <component name="RunManager" selected="Application.ContainsDuplicate">
-    <configuration name="ContainsDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+}]]></component>
+  <component name="RunManager" selected="Application.MoveZeroesToEnd">
+    <configuration name="FindUniqueAndDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="leetcode.easy.ContainsDuplicate" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.hash.FindUniqueAndDuplicate" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="PATTERN" value="tufPlus.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -88,14 +289,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CountVowels" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="FreqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crio101.CountVowels" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.hash.FreqSum" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crio101.*" />
+          <option name="PATTERN" value="tufPlus.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -103,14 +304,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctNumberBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="HighestOccuringElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crio101.DistinctNumberBasic" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.hash.HighestOccuringElement" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crio101.*" />
+          <option name="PATTERN" value="tufPlus.hash.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,12 +319,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DistinctNumberBasicOptimIzed" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="crio101.DistinctNumberBasicOptimIzed" />
+    <configuration name="MoveZeroesToEnd" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.array.fundamentals.MoveZeroesToEnd" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crio101.*" />
+          <option name="PATTERN" value="tufPlus.array.fundamentals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -131,14 +334,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostFixExpression" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="SortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crio101.PostFixExpression" />
+      <option name="MAIN_CLASS_NAME" value="interview.SortedArray" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crio101.*" />
+          <option name="PATTERN" value="interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -166,19 +369,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.CountVowels" />
-      <item itemvalue="Application.PostFixExpression" />
-      <item itemvalue="Application.ContainsDuplicate" />
-      <item itemvalue="Application.DistinctNumberBasic" />
-      <item itemvalue="Application.DistinctNumberBasicOptimIzed" />
+      <item itemvalue="Application.MoveZeroesToEnd" />
+      <item itemvalue="Application.SortedArray" />
+      <item itemvalue="Application.FindUniqueAndDuplicate" />
+      <item itemvalue="Application.FreqSum" />
+      <item itemvalue="Application.HighestOccuringElement" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ContainsDuplicate" />
-        <item itemvalue="Application.CountVowels" />
-        <item itemvalue="Application.PostFixExpression" />
-        <item itemvalue="Application.DistinctNumberBasicOptimIzed" />
-        <item itemvalue="Application.DistinctNumberBasic" />
+        <item itemvalue="Application.MoveZeroesToEnd" />
+        <item itemvalue="Application.SortedArray" />
+        <item itemvalue="Application.FindUniqueAndDuplicate" />
+        <item itemvalue="Application.HighestOccuringElement" />
+        <item itemvalue="Application.FreqSum" />
       </list>
     </recent_temporary>
   </component>
@@ -192,5 +395,81 @@
       <updated>1756363483929</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/recursion/FibonaceeUsingRecursion.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/recursion/FibonaceeUsingRecursion.java</url>
+          <line>6</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>25</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/interview/SortedArray.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
+          <line>18</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
+          <line>21</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="nums[i] &gt; largest" />
+        <watch expression=" secondLargest = largest;" language="JAVA" />
+        <watch expression=" largest = nums[i];" />
+      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/src/tufPlus/hash/HighestOccuringElement.java" line="22">
+        <watch expression="array[i] == array[j]" />
+      </inline-watch>
+    </watches-manager>
   </component>
 </project>

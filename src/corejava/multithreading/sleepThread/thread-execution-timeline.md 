@@ -1,0 +1,56 @@
+# Thread Execution Timeline (Sleep + Wake Simulation)
+
+| Time | Main Thread | Worker-1 | Worker-2 | Worker-3 |
+| ---- | ----------- | -------- | -------- | -------- |
+0ms   | Starts        | Starts       | Starts       | Starts
+      | Prints "Main.."| Prints "W1-0"| Prints "W2-0"| Prints "W3-0"
+      | Sleeps 300ms  | Sleeps 250ms | Sleeps 400ms | Sleeps 350ms
+250ms| Still sleeping | Wakes up     | Still sleeping| Still sleeping
+      |               | Prints "W1-1"|              |
+      |               | Sleeps 450ms |              |
+300ms| Wakes up       | Sleeping     | Still sleeping| Wakes up
+      | Prints "Main.."|              |              | Prints "W3-1"
+      | Sleeps 300ms  |              |              | Sleeps 200ms
+400ms| Still sleeping | Wakes up     | Wakes up     | Still sleeping
+      |               | Prints "W1-2"| Prints "W2-1"|
+      |               | Finishes     | Sleeps 300ms |
+500ms| Wakes up       |              |              | Wakes up
+      | Prints "Main.."|              |              | Prints "W3-2"
+      | Finishes      |              |              | Finishes
+600ms|                |              | Wakes up     |
+      |                |              | Prints "W2-2"|
+      |                |              | Finishes     |
+
+======================================================================
+
+Current Code Analysis
+In your current code:
+
+    -Main thread uses Thread.sleep(300)
+    -Worker threads (Worker-1, Worker-2, Worker-3) don't have any sleep
+What Happens Internally
+    1.Main Thread Execution:
+        -Main thread starts and creates worker threads
+        -When it hits Thread.sleep(300), it goes to TIMED_WAITING state
+        -This allows other threads to run
+    2.Worker Threads Execution:
+        -Worker threads run their loops without any sleep()
+        -However, they don't run to completion in one go due to:
+            -> Time Slicing: The OS allocates time slices to each thread
+            -> Preemptive Multitasking: The OS can interrupt a running thread to give others a chance
+            -> Thread Yielding: The JVM/OS may decide to switch threads even without sleep()
+Why Thread Switching Happens Without sleep()
+    -Even without sleep(), thread switching occurs because:
+
+1.Time Slicing:
+    -Modern OSes use preemptive scheduling
+    -Each thread gets a small time quantum (typically 10-100ms)
+    -After this time, the OS may switch to another thread
+2.System Calls:
+    -Operations like System.out.println() are I/O operations
+    -These can cause thread context switches
+3.JVM/OS Decisions:
+    -The JVM or OS may decide to switch threads for:
+        -> Fairness (giving all threads a chance to run)
+        -> System load balancing
+        -> Other system events
