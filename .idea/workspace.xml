@@ -4,140 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/CreatingHashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapAllkeysFetchOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapCompute_Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapJava8_Improvements.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashMapData/HashMapOperation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/FindDuplicateusingHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/HashSetImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/HashSetIteration.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/hashSetData/sortingTechnique/HashSetSortingTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/ArrayList_IterationTechnique.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/ListSorting.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/CustomSortingUsingLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/linkedListData/sortingData/LinkedListSortingDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/listData/sortingTechnique/VehicleMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/treeSetData/CreatingTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/collection/treeSetData/NumberGreaterThanFifty_UsingTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/ExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/HttpConnect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/checkedException/CheckedExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/checkedException/HTTPConnectChecked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/OnlinePaymentProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/PaymentProcessing.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule1/RuleOneDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/CachedFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/CloudFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/FileServiceDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/LocalFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/SecureFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentRuntimeException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule2/realProjectRule2Implementation/DocumentServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/CryptoPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/OnlinePaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/PymentServiceRuleThree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/overridingExceptionRule/rule3/UPIPaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/unchekedException/HttpConnectUnchecked.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/exceptionhandling/demo/unchekedException/UncheckedExceptionDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/jvmInternal/JVM_ClassLoaderConceptsExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/CreatingMainThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/SumThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/SumThreadDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/ThreadWithRunnable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/SleepDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/ThreadSleepExamplesToUnderstandMore.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/ThreadSleepSchedulling.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/Worker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/multithreading/sleepThread/thread-execution-timeline.md " afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/Abstraction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/CreditCardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/EmailService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/InvoiceGenerator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/NotificationManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/PaymentService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/EmailNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/NotificationManagerImplementation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/NotificationService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/PushNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/goodDesign/SmsNotification.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchForIndia.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchForJapan.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/badCode/SearchJob.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/Application.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/GermanyJobSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/JapanJobSearch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/JobSearchStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/abstraction/interfacedesign/goodCode/SearchJobGoodCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/BankAccount.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/BankAccount_BadCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/LaptopBadCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/encapsulation/UserEncapsulated.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/AbstractPaymentprocessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/CardPayment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/Main_AbstractImplementInterfaceDesign.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/PaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/AbstractImplementInterfaceDesign/UPIPaymentProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/Choose_Abstract_Versus_Interface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/MarkerInterfaceUnderstanding.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/RulesOfInterface.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Car.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/defaultt/Vehicle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/baddesign/EmployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/HRService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/HiringManageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/LeaveManageable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/PayrollService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/oops/interfacee/godinterface/gooddesign/SalaryCalculable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/corejava/regularexpression/RegularExpressionMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/FizzBuzz.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/MergeTwoSortedArrays.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/interview/SortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/SquresOfSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/ValidPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/package-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/striverAtoZ/sorting/Leetcode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/CheckIfArrayIsSortedOrNot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/MaximumConsecutiveOne_Array.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/fundamentals/SecondLargestElementInArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FindUniqueAndDuplicate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FreqOfAllWordsInSentense.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/FreqSum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/HighestOccuringElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/hash/MostFrequentWordInSentence.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/CountdownRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/FactorialUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/FibonaceeUsingRecursion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/recursion/SumOfFirstN_Numbers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/sorting/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/Isomerphic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/LargestOddNumberInString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/LongestCommonPrefix.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/PalindromeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ReverseAnStringArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ReverseVowels.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/SortCharacterByFrequency_UsingHashSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/SortCharacterFrequencyUsing_HashMap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/string/ValidAnagram.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/LargestOddNumberInAString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/PallindromeCheck.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufRevesion/basicString/ReverseStringSecondProblem.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit /&#10;-m &quot;DSA : Problem Solving - 25th March 2026&quot;">
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/findMisiingNumberAnotherApproch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/findMissingNumber.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/striverAtoZ/sorting/SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/striverAtoZ/sorting/SelectionSort.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -261,9 +131,12 @@
     "Application.corejava.collection.sortingTechnique.Main.executor": "Run",
     "Application.corejava.oops.abstraction.interfacedesign.goodCode.Application.executor": "Run",
     "Application.corejava.oops.interfacee.defaultt.Main.executor": "Run",
+    "Application.findMisiingNumberAnotherApproch.executor": "Run",
+    "Application.findMissingNumber.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/bikashmohapatra/Dev/Projects/java-workspace/DSAWorkspaceSheetBased",
@@ -273,41 +146,11 @@
     "settings.editor.selected.configurable": "preferences.rainbow.brackets.stop.list"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MoveZeroesToEnd">
+  <component name="RunManager" selected="Application.findMisiingNumberAnotherApproch">
     <configuration name="FindUniqueAndDuplicate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="tufPlus.hash.FindUniqueAndDuplicate" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FreqSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.hash.FreqSum" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.hash.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HighestOccuringElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.hash.HighestOccuringElement" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
@@ -357,6 +200,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="findMisiingNumberAnotherApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.findMisiingNumberAnotherApproch" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="findMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.findMissingNumber" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="CrioWorkspace" />
       <method v="2">
@@ -369,19 +242,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.findMisiingNumberAnotherApproch" />
+      <item itemvalue="Application.findMissingNumber" />
+      <item itemvalue="Application.FindUniqueAndDuplicate" />
       <item itemvalue="Application.MoveZeroesToEnd" />
       <item itemvalue="Application.SortedArray" />
-      <item itemvalue="Application.FindUniqueAndDuplicate" />
-      <item itemvalue="Application.FreqSum" />
-      <item itemvalue="Application.HighestOccuringElement" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.findMisiingNumberAnotherApproch" />
+        <item itemvalue="Application.findMissingNumber" />
         <item itemvalue="Application.MoveZeroesToEnd" />
         <item itemvalue="Application.SortedArray" />
         <item itemvalue="Application.FindUniqueAndDuplicate" />
-        <item itemvalue="Application.HighestOccuringElement" />
-        <item itemvalue="Application.FreqSum" />
       </list>
     </recent_temporary>
   </component>
@@ -394,7 +267,20 @@
       <option name="presentableId" value="Default" />
       <updated>1756363483929</updated>
     </task>
+    <task id="LOCAL-00001" summary="git commit /&#10;-m &quot;DSA : Problem Solving - 25th March 2026&quot;">
+      <option name="closed" value="true" />
+      <created>1774437231416</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1774437231416</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="git commit /&#10;-m &quot;DSA : Problem Solving - 25th March 2026&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit /&#10;-m &quot;DSA : Problem Solving - 25th March 2026&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -440,24 +326,14 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
-          <line>18</line>
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/logicBuilding/findMissingNumber.java</url>
+          <line>25</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
-          <line>19</line>
-          <option name="timeStamp" value="15" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/tufPlus/array/fundamentals/MoveZeroesToEnd.java</url>
-          <line>21</line>
-          <option name="timeStamp" value="17" />
+          <url>file://$PROJECT_DIR$/src/tufPlus/array/logicBuilding/findMisiingNumberAnotherApproch.java</url>
+          <line>43</line>
+          <option name="timeStamp" value="18" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
