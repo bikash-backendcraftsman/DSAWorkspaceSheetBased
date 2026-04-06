@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit /&#10;-m &quot;docs(dsa): add Find Missing Number revision notes with pattern, retention strategy, and revision tracker | DSA : Problem Solving - 25th March 2026&quot;">
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/MergeSortedArray_whenAllAreUniqueAndSorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/MergeTwoSortedArray_OptimalApproch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/MergeTwoSortedArray_UsingTreeSet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/MergeUnionArray_BruteForce.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;feat: add optimized merge of two sorted unique arrays using two pointers&#10;&#10;- Applied two-pointer pattern for linear time complexity&#10;- Avoided extra sorting (improves from O(n log n) to O(n))&#10;- Handled remaining elements after main traversal&#10;- Ensured clean and efficient merge logic&quot;">
+      <change afterPath="$PROJECT_DIR$/src/intervie/ReverseArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/LeadersInAnArrayBruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -89,6 +86,7 @@
     "Application.Laptop.executor": "Run",
     "Application.LargestOddNumberInAString.executor": "Run",
     "Application.LargestOddNumberInString.executor": "Run",
+    "Application.LeadersInAnArrayBruteForce.executor": "Run",
     "Application.Leetcode.executor": "Debug",
     "Application.LinkedListSortingDemo.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
@@ -109,6 +107,7 @@
     "Application.RegularExpressionMain.executor": "Run",
     "Application.RemoveDuplicates26LeetCode.executor": "Run",
     "Application.ReverseAnStringArray.executor": "Debug",
+    "Application.ReverseArray.executor": "Run",
     "Application.ReverseStringSecondProblem.executor": "Run",
     "Application.RuleOneDemo.executor": "Run",
     "Application.SearchTargetBruteForce.executor": "Run",
@@ -153,7 +152,22 @@
     "settings.editor.selected.configurable": "preferences.rainbow.brackets.stop.list"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MergeSortedArray_whenAllAreUniqueAndSorted">
+  <component name="RunManager" selected="Application.LeadersInAnArrayBruteForce">
+    <configuration name="LeadersInAnArrayBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.LeadersInAnArrayBruteForce" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MergeSortedArray_whenAllAreUniqueAndSorted" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -199,14 +213,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MergeUnionArray_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.MergeUnionArray_BruteForce" />
+      <option name="MAIN_CLASS_NAME" value="intervie.ReverseArray" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="PATTERN" value="intervie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -218,21 +232,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="DSAWorkspaceSheetBased" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="findMisiingNumberAnotherApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.findMisiingNumberAnotherApproch" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -249,19 +248,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LeadersInAnArrayBruteForce" />
+      <item itemvalue="Application.ReverseArray" />
       <item itemvalue="Application.MergeSortedArray_whenAllAreUniqueAndSorted" />
       <item itemvalue="Application.MergeTwoSortedArray_OptimalApproch" />
       <item itemvalue="Application.MergeTwoSortedArray_UsingTreeSet" />
-      <item itemvalue="Application.MergeUnionArray_BruteForce" />
-      <item itemvalue="Application.findMisiingNumberAnotherApproch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeadersInAnArrayBruteForce" />
+        <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.MergeSortedArray_whenAllAreUniqueAndSorted" />
         <item itemvalue="Application.MergeTwoSortedArray_OptimalApproch" />
         <item itemvalue="Application.MergeTwoSortedArray_UsingTreeSet" />
-        <item itemvalue="Application.MergeUnionArray_BruteForce" />
-        <item itemvalue="Application.findMisiingNumberAnotherApproch" />
       </list>
     </recent_temporary>
   </component>
@@ -290,13 +289,22 @@
       <option name="project" value="LOCAL" />
       <updated>1774520919552</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git commit -m &quot;feat: add optimized merge of two sorted unique arrays using two pointers&#10;&#10;- Applied two-pointer pattern for linear time complexity&#10;- Avoided extra sorting (improves from O(n log n) to O(n))&#10;- Handled remaining elements after main traversal&#10;- Ensured clean and efficient merge logic&quot;">
+      <option name="closed" value="true" />
+      <created>1774605838989</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1774605838989</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="git commit /&#10;-m &quot;DSA : Problem Solving - 25th March 2026&quot;" />
     <MESSAGE value="git commit /&#10;-m &quot;docs(dsa): add Find Missing Number revision notes with pattern, retention strategy, and revision tracker | DSA : Problem Solving - 25th March 2026&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit /&#10;-m &quot;docs(dsa): add Find Missing Number revision notes with pattern, retention strategy, and revision tracker | DSA : Problem Solving - 25th March 2026&quot;" />
+    <MESSAGE value="git commit -m &quot;feat: add optimized merge of two sorted unique arrays using two pointers&#10;&#10;- Applied two-pointer pattern for linear time complexity&#10;- Avoided extra sorting (improves from O(n log n) to O(n))&#10;- Handled remaining elements after main traversal&#10;- Ensured clean and efficient merge logic&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;feat: add optimized merge of two sorted unique arrays using two pointers&#10;&#10;- Applied two-pointer pattern for linear time complexity&#10;- Avoided extra sorting (improves from O(n log n) to O(n))&#10;- Handled remaining elements after main traversal&#10;- Ensured clean and efficient merge logic&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
