@@ -31,10 +31,6 @@ public class LeadersInAnArrayBruteForce {
             if(isleader){
                 result.add(nums[i]);
             }
-
-            if(result.size() == 0){
-                return List.of(0);
-            }
         }
         return result;
     }
