@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Striver DSA : Array Leader and Rever Array question solved successfully&quot;">
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;">
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/LeadersInArrayOptimizedApproch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/LeadersInAnArrayBruteForce.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/LeadersInAnArrayBruteForce.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +86,7 @@
     "Application.LargestOddNumberInAString.executor": "Run",
     "Application.LargestOddNumberInString.executor": "Run",
     "Application.LeadersInAnArrayBruteForce.executor": "Run",
+    "Application.LeadersInArrayOptimizedApproch.executor": "Run",
     "Application.Leetcode.executor": "Debug",
     "Application.LinkedListSortingDemo.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
@@ -151,11 +152,26 @@
     "settings.editor.selected.configurable": "preferences.rainbow.brackets.stop.list"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LeadersInAnArrayBruteForce">
+  <component name="RunManager" selected="Application.LeadersInArrayOptimizedApproch">
     <configuration name="LeadersInAnArrayBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.LeadersInAnArrayBruteForce" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeadersInArrayOptimizedApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.LeadersInArrayOptimizedApproch" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
@@ -186,21 +202,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.MergeTwoSortedArray_OptimalApproch" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MergeTwoSortedArray_UsingTreeSet" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.MergeTwoSortedArray_UsingTreeSet" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
@@ -247,19 +248,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
       <item itemvalue="Application.LeadersInAnArrayBruteForce" />
       <item itemvalue="Application.ReverseArray" />
       <item itemvalue="Application.MergeSortedArray_whenAllAreUniqueAndSorted" />
       <item itemvalue="Application.MergeTwoSortedArray_OptimalApproch" />
-      <item itemvalue="Application.MergeTwoSortedArray_UsingTreeSet" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
         <item itemvalue="Application.LeadersInAnArrayBruteForce" />
         <item itemvalue="Application.ReverseArray" />
         <item itemvalue="Application.MergeSortedArray_whenAllAreUniqueAndSorted" />
         <item itemvalue="Application.MergeTwoSortedArray_OptimalApproch" />
-        <item itemvalue="Application.MergeTwoSortedArray_UsingTreeSet" />
       </list>
     </recent_temporary>
   </component>
@@ -304,7 +305,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775497911516</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;">
+      <option name="closed" value="true" />
+      <created>1775498213901</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1775498213902</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -312,7 +321,8 @@
     <MESSAGE value="git commit /&#10;-m &quot;docs(dsa): add Find Missing Number revision notes with pattern, retention strategy, and revision tracker | DSA : Problem Solving - 25th March 2026&quot;" />
     <MESSAGE value="git commit -m &quot;feat: add optimized merge of two sorted unique arrays using two pointers&#10;&#10;- Applied two-pointer pattern for linear time complexity&#10;- Avoided extra sorting (improves from O(n log n) to O(n))&#10;- Handled remaining elements after main traversal&#10;- Ensured clean and efficient merge logic&quot;" />
     <MESSAGE value="git commit -m &quot;Striver DSA : Array Leader and Rever Array question solved successfully&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Striver DSA : Array Leader and Rever Array question solved successfully&quot;" />
+    <MESSAGE value="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
