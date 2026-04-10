@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Leaders in Array: &#10;1. Optimized with reverse traversal and maxFromRight.&#10;2. Pattern: One-pass from right, update running max.&#10;3. Time: O(n^2) ➡️ O(n)&#10;4. Space: O(n) both ways.&quot;">
-      <change afterPath="$PROJECT_DIR$/src/intervie/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/ReArrangeElementsOptimized.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/ReArrangeElements_BruteForce.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;">
+      <change afterPath="$PROJECT_DIR$/src/neetCode/array/RemoveMatchingElement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/array/RemoveMatchingElement_BruteForce.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/intervie/ReverseArray.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +108,8 @@
     "Application.ReArrangeElements_BruteForce.executor": "Run",
     "Application.RegularExpressionMain.executor": "Run",
     "Application.RemoveDuplicates26LeetCode.executor": "Run",
+    "Application.RemoveMatchingElement.executor": "Run",
+    "Application.RemoveMatchingElement_BruteForce.executor": "Debug",
     "Application.ReverseAnStringArray.executor": "Debug",
     "Application.ReverseArray.executor": "Run",
     "Application.ReverseStringSecondProblem.executor": "Run",
@@ -157,22 +157,7 @@
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.ReArrangeElements_BruteForce">
-    <configuration name="LeadersInAnArrayBruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.LeadersInAnArrayBruteForce" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.RemoveMatchingElement_BruteForce">
     <configuration name="LeadersInArrayOptimizedApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -203,14 +188,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveMatchingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="intervie.ReverseArray" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.array.RemoveMatchingElement" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intervie.*" />
+          <option name="PATTERN" value="neetCode.array.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveMatchingElement_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.array.RemoveMatchingElement_BruteForce" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neetCode.array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -254,18 +254,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.ReArrangeElements_BruteForce" />
+      <item itemvalue="Application.RemoveMatchingElement" />
+      <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
-      <item itemvalue="Application.LeadersInAnArrayBruteForce" />
-      <item itemvalue="Application.ReverseArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
+        <item itemvalue="Application.RemoveMatchingElement" />
         <item itemvalue="Application.ReArrangeElements_BruteForce" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
-        <item itemvalue="Application.LeadersInAnArrayBruteForce" />
-        <item itemvalue="Application.ReverseArray" />
       </list>
     </recent_temporary>
   </component>
@@ -326,7 +326,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775647334284</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;">
+      <option name="closed" value="true" />
+      <created>1775756247860</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1775756247860</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -336,7 +344,8 @@
     <MESSAGE value="git commit -m &quot;Striver DSA : Array Leader and Rever Array question solved successfully&quot;" />
     <MESSAGE value="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;" />
     <MESSAGE value="git commit -m &quot;Leaders in Array: &#10;1. Optimized with reverse traversal and maxFromRight.&#10;2. Pattern: One-pass from right, update running max.&#10;3. Time: O(n^2) ➡️ O(n)&#10;4. Space: O(n) both ways.&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Leaders in Array: &#10;1. Optimized with reverse traversal and maxFromRight.&#10;2. Pattern: One-pass from right, update running max.&#10;3. Time: O(n^2) ➡️ O(n)&#10;4. Space: O(n) both ways.&quot;" />
+    <MESSAGE value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
