@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;">
-      <change afterPath="$PROJECT_DIR$/src/neetCode/array/RemoveMatchingElement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/array/RemoveMatchingElement_BruteForce.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;">
+      <change afterPath="$PROJECT_DIR$/src/intervie/Caller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intervie/Child.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/intervie/Parent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +55,7 @@
   "keyToString": {
     "Application.Application.executor": "Run",
     "Application.ArrayList_IterationTechnique.executor": "Run",
+    "Application.Caller.executor": "Run",
     "Application.Capitalise.executor": "Run",
     "Application.CheckIfArrayIsSortedOrNot.executor": "Run",
     "Application.ContainsDuplicate.executor": "Run",
@@ -157,15 +159,15 @@
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveMatchingElement_BruteForce">
-    <configuration name="LeadersInArrayOptimizedApproch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Caller">
+    <configuration name="Caller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.LeadersInArrayOptimizedApproch" />
+      <option name="MAIN_CLASS_NAME" value="intervie.Caller" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
+          <option name="PATTERN" value="intervie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,19 +255,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Application.Caller" />
       <item itemvalue="Application.ReArrangeElements_BruteForce" />
       <item itemvalue="Application.RemoveMatchingElement" />
       <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
       <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Caller" />
         <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
         <item itemvalue="Application.RemoveMatchingElement" />
         <item itemvalue="Application.ReArrangeElements_BruteForce" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.LeadersInArrayOptimizedApproch" />
       </list>
     </recent_temporary>
   </component>
@@ -334,7 +336,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775756247860</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;">
+      <option name="closed" value="true" />
+      <created>1775827493495</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1775827493495</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -345,7 +355,8 @@
     <MESSAGE value="git commit -m &quot;feat(dsa): Remove unwnted if condition logic&quot;" />
     <MESSAGE value="git commit -m &quot;Leaders in Array: &#10;1. Optimized with reverse traversal and maxFromRight.&#10;2. Pattern: One-pass from right, update running max.&#10;3. Time: O(n^2) ➡️ O(n)&#10;4. Space: O(n) both ways.&quot;" />
     <MESSAGE value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
+    <MESSAGE value="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
