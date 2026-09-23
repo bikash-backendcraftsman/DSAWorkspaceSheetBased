@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;">
-      <change afterPath="$PROJECT_DIR$/src/intervie/Caller.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intervie/Child.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/intervie/Parent.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Deleted package and classes&quot;">
+      <change afterPath="$PROJECT_DIR$/src/neetCode/array/LengthOfLastWord.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/array/NumberOfSeniorCitizen.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/AddindSpaceString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/MergeStringAlternatively.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/RemoveDulicateTwoPointer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/RemoveDuplicateFromSortedArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/ReverseString.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/ValidWordAbbreviation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/twoPointer/template/Template.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/PascalTraingle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/SortIntegerUsing_TwoApproch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/SortZero_One_Two_BestApproch.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/crio101/twopointer/TwoSum167LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crio101/twopointer/TwoSum167LeetCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,6 +64,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddindSpaceString.executor": "Run",
     "Application.Application.executor": "Run",
     "Application.ArrayList_IterationTechnique.executor": "Run",
     "Application.Caller.executor": "Run",
@@ -91,11 +103,13 @@
     "Application.LeadersInAnArrayBruteForce.executor": "Run",
     "Application.LeadersInArrayOptimizedApproch.executor": "Run",
     "Application.Leetcode.executor": "Debug",
+    "Application.LengthOfLastWord.executor": "Run",
     "Application.LinkedListSortingDemo.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaximumConsecutiveOne_Array.executor": "Run",
     "Application.MergeSortedArray_whenAllAreUniqueAndSorted.executor": "Run",
+    "Application.MergeStringAlternatively.executor": "Run",
     "Application.MergeTwoSortedArray_OptimalApproch.executor": "Run",
     "Application.MergeTwoSortedArray_UsingTreeSet.executor": "Run",
     "Application.MergeUnionArray.executor": "Run",
@@ -104,11 +118,15 @@
     "Application.MoveZeroesToEnd.executor": "Run",
     "Application.NotificationManager.executor": "Run",
     "Application.NumberGreaterThanFifty_UsingTreeSet.executor": "Run",
+    "Application.NumberOfSeniorCitizen.executor": "Run",
     "Application.PalindromeCheck.executor": "Run",
     "Application.PallindromeCheck.executor": "Run",
+    "Application.PascalTraingle.executor": "Run",
     "Application.PostFixExpression.executor": "Run",
     "Application.ReArrangeElements_BruteForce.executor": "Run",
     "Application.RegularExpressionMain.executor": "Run",
+    "Application.RemoveDulicateTwoPointer.executor": "Run",
+    "Application.RemoveDuplicateFromSortedArray.executor": "Run",
     "Application.RemoveDuplicates26LeetCode.executor": "Run",
     "Application.RemoveMatchingElement.executor": "Run",
     "Application.RemoveMatchingElement_BruteForce.executor": "Debug",
@@ -125,12 +143,15 @@
     "Application.SortArrayInLexicoGraphically.executor": "Run",
     "Application.SortCharacterByFrequency_UsingHashSet.executor": "Run",
     "Application.SortCharacterFrequencyUsing_HashMap.executor": "Run",
+    "Application.SortIntegerUsing_TwoApproch.executor": "Run",
+    "Application.SortZero_One_Two_BestApproch.executor": "Run",
     "Application.SortedArray.executor": "Debug",
     "Application.SquresOfSortedArray.executor": "Run",
     "Application.StringTimeComplexity.executor": "Run",
     "Application.SumOfFirstN_Numbers.executor": "Run",
     "Application.SumOfHighestAndLowestFrequency.executor": "Run",
     "Application.SumThreadDemo.executor": "Debug",
+    "Application.Template.executor": "Run",
     "Application.ThreadSleepExamplesToUnderstandMore.executor": "Run",
     "Application.ThreadSleepSchedulling.executor": "Debug",
     "Application.ThreadWithRunnable.executor": "Debug",
@@ -140,60 +161,33 @@
     "Application.UserEncapsulated.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
+    "Application.ValidWordAbbreviation.executor": "Run",
     "Application.VehicleMain.executor": "Run",
+    "Application.checkPalindrome.executor": "Run",
     "Application.corejava.collection.sortingTechnique.Main.executor": "Run",
     "Application.corejava.oops.abstraction.interfacedesign.goodCode.Application.executor": "Run",
     "Application.corejava.oops.interfacee.defaultt.Main.executor": "Run",
     "Application.findMisiingNumberAnotherApproch.executor": "Run",
     "Application.findMissingNumber.executor": "Run",
+    "Application.process.Solution.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/bikashmohapatra/Dev/Projects/java-workspace/DSAWorkspaceSheetBased",
+    "last_opened_file_path": "/Users/bikashmohapatra/Dev/Projects/Java Development Workspace/java-workspace/DSAWorkspaceSheetBased",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.Caller">
-    <configuration name="Caller" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.checkPalindrome">
+    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="intervie.Caller" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="intervie.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReArrangeElements_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="tufPlus.array.logicBuilding.ReArrangeElements_BruteForce" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tufPlus.array.logicBuilding.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="RemoveMatchingElement" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.array.RemoveMatchingElement" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.array.LengthOfLastWord" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
@@ -205,10 +199,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveMatchingElement_BruteForce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="NumberOfSeniorCitizen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.array.RemoveMatchingElement_BruteForce" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.array.NumberOfSeniorCitizen" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
@@ -220,14 +214,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="intervie.Solution" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.twoPointer.RemoveDuplicateFromSortedArray" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="intervie.*" />
+          <option name="PATTERN" value="neetCode.twoPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TwoSum167LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="crio101.twopointer.TwoSum167LeetCode" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="crio101.twopointer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -239,6 +248,21 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="DSAWorkspaceSheetBased" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="checkPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="neetCode.twoPointer.checkPalindrome" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="neetCode.twoPointer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -255,19 +279,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Caller" />
-      <item itemvalue="Application.ReArrangeElements_BruteForce" />
-      <item itemvalue="Application.RemoveMatchingElement" />
-      <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
-      <item itemvalue="Application.Solution" />
+      <item itemvalue="Application.TwoSum167LeetCode" />
+      <item itemvalue="Application.checkPalindrome" />
+      <item itemvalue="Application.NumberOfSeniorCitizen" />
+      <item itemvalue="Application.LengthOfLastWord" />
+      <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Caller" />
-        <item itemvalue="Application.RemoveMatchingElement_BruteForce" />
-        <item itemvalue="Application.RemoveMatchingElement" />
-        <item itemvalue="Application.ReArrangeElements_BruteForce" />
-        <item itemvalue="Application.Solution" />
+        <item itemvalue="Application.checkPalindrome" />
+        <item itemvalue="Application.TwoSum167LeetCode" />
+        <item itemvalue="Application.NumberOfSeniorCitizen" />
+        <item itemvalue="Application.LengthOfLastWord" />
+        <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +368,15 @@
       <option name="project" value="LOCAL" />
       <updated>1775827493495</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="git commit -m &quot;Deleted package and classes&quot;">
+      <option name="closed" value="true" />
+      <created>1776017733881</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1776017733881</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -356,7 +388,8 @@
     <MESSAGE value="git commit -m &quot;Leaders in Array: &#10;1. Optimized with reverse traversal and maxFromRight.&#10;2. Pattern: One-pass from right, update running max.&#10;3. Time: O(n^2) ➡️ O(n)&#10;4. Space: O(n) both ways.&quot;" />
     <MESSAGE value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
     <MESSAGE value="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;" />
+    <MESSAGE value="git commit -m &quot;Deleted package and classes&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Deleted package and classes&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -411,6 +444,26 @@
           <line>43</line>
           <option name="timeStamp" value="18" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java</url>
+          <line>24</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -418,6 +471,8 @@
         <watch expression="nums[i] &gt; largest" />
         <watch expression=" secondLargest = largest;" language="JAVA" />
         <watch expression=" largest = nums[i];" />
+        <watch expression="array[start]" />
+        <watch expression="array[start] &lt; array[end]" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/tufPlus/hash/HighestOccuringElement.java" line="22">
         <watch expression="array[i] == array[j]" />

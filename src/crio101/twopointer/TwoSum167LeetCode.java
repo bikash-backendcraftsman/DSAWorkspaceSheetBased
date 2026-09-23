@@ -2,8 +2,8 @@ package crio101.twopointer;
 
 public class TwoSum167LeetCode {
     public static void main(String[] args) {
-        int[] numbers = {2,7,11,15};
-        int target = 9;
+        int[] numbers = {-1,-2,-3,-4,-5};
+        int target = 8;
         int[] ints = twoSum(numbers, target);
         for(int val : ints){
             System.out.print(val+" ");
@@ -24,12 +24,13 @@ public class TwoSum167LeetCode {
         int start = 0; int end = numbers.length - 1;
         while(start < end){
             int sum = numbers[start] + numbers[end];
+            System.out.println("Sum Value :"+sum);
             if(sum == target){
                 return new int[]{start + 1, end + 1};
             }else if(sum > target){
-                end--;
+                start ++;
             }else{
-                start++;
+                end--;
             }
         }
         return new int[]{-1,-1};
