@@ -4,22 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="git commit -m &quot;Deleted package and classes&quot;">
-      <change afterPath="$PROJECT_DIR$/src/neetCode/array/LengthOfLastWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/array/NumberOfSeniorCitizen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/AddindSpaceString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/MergeStringAlternatively.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/RemoveDulicateTwoPointer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/RemoveDuplicateFromSortedArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/ReverseString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/ValidWordAbbreviation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/checkPalindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pattern/twoPointer/template/Template.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/PascalTraingle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/SortIntegerUsing_TwoApproch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tufPlus/array/logicBuilding/SortZero_One_Two_BestApproch.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="Added practice Question">
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Interview4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Interview_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Interview_1_BetterApproach.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Interview_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java8interview/Interview_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/TwoSum_2_InputArraySorted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/neetCode/twoPointer/ValidPalindrome_LeetCode125.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/slidingWindow/medium/LongestSubstring_With_K_Uniques.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pattern/slidingWindow/medium/MaximumSumOf_Distinct_SubArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/crio101/twopointer/TwoSum167LeetCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/crio101/twopointer/TwoSum167LeetCode.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +93,11 @@
     "Application.HashSetIteration.executor": "Run",
     "Application.HashSetSortingTechnique.executor": "Run",
     "Application.HighestOccuringElement.executor": "Run",
+    "Application.Interview4.executor": "Run",
+    "Application.Interview_1.executor": "Run",
+    "Application.Interview_1_BetterApproach.executor": "Run",
+    "Application.Interview_2.executor": "Run",
+    "Application.Interview_3.executor": "Run",
     "Application.Isomerphic.executor": "Run",
     "Application.Laptop.executor": "Run",
     "Application.LargestOddNumberInAString.executor": "Run",
@@ -106,8 +108,10 @@
     "Application.LengthOfLastWord.executor": "Run",
     "Application.LinkedListSortingDemo.executor": "Run",
     "Application.LongestCommonPrefix.executor": "Run",
+    "Application.LongestSubstring_With_K_Uniques.executor": "Run",
     "Application.Main.executor": "Run",
     "Application.MaximumConsecutiveOne_Array.executor": "Run",
+    "Application.MaximumSumOf_Distinct_SubArray.executor": "Run",
     "Application.MergeSortedArray_whenAllAreUniqueAndSorted.executor": "Run",
     "Application.MergeStringAlternatively.executor": "Run",
     "Application.MergeTwoSortedArray_OptimalApproch.executor": "Run",
@@ -156,11 +160,13 @@
     "Application.ThreadSleepSchedulling.executor": "Debug",
     "Application.ThreadWithRunnable.executor": "Debug",
     "Application.TwoSum167LeetCode.executor": "Run",
+    "Application.TwoSum_2_InputArraySorted.executor": "Run",
     "Application.UncheckedExceptionDemo.executor": "Run",
     "Application.UniqueWordsOptimized.executor": "Run",
     "Application.UserEncapsulated.executor": "Run",
     "Application.ValidAnagram.executor": "Run",
     "Application.ValidPalindrome.executor": "Run",
+    "Application.ValidPalindrome_LeetCode125.executor": "Run",
     "Application.ValidWordAbbreviation.executor": "Run",
     "Application.VehicleMain.executor": "Run",
     "Application.checkPalindrome.executor": "Run",
@@ -183,15 +189,15 @@
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.checkPalindrome">
-    <configuration name="LengthOfLastWord" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.LongestSubstring_With_K_Uniques">
+    <configuration name="Interview4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.array.LengthOfLastWord" />
+      <option name="MAIN_CLASS_NAME" value="java8interview.Interview4" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neetCode.array.*" />
+          <option name="PATTERN" value="java8interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -199,14 +205,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="NumberOfSeniorCitizen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Interview_2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.array.NumberOfSeniorCitizen" />
+      <option name="MAIN_CLASS_NAME" value="java8interview.Interview_2" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neetCode.array.*" />
+          <option name="PATTERN" value="java8interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,14 +220,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateFromSortedArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Interview_3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.twoPointer.RemoveDuplicateFromSortedArray" />
+      <option name="MAIN_CLASS_NAME" value="java8interview.Interview_3" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neetCode.twoPointer.*" />
+          <option name="PATTERN" value="java8interview.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -229,14 +235,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoSum167LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="LongestSubstring_With_K_Uniques" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="crio101.twopointer.TwoSum167LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="pattern.slidingWindow.medium.LongestSubstring_With_K_Uniques" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="crio101.twopointer.*" />
+          <option name="PATTERN" value="pattern.slidingWindow.medium.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MaximumSumOf_Distinct_SubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="pattern.slidingWindow.medium.MaximumSumOf_Distinct_SubArray" />
+      <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pattern.slidingWindow.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -248,21 +269,6 @@
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <module name="DSAWorkspaceSheetBased" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="checkPalindrome" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.twoPointer.checkPalindrome" />
-      <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="neetCode.twoPointer.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -279,19 +285,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.TwoSum167LeetCode" />
-      <item itemvalue="Application.checkPalindrome" />
-      <item itemvalue="Application.NumberOfSeniorCitizen" />
-      <item itemvalue="Application.LengthOfLastWord" />
-      <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
+      <item itemvalue="Application.LongestSubstring_With_K_Uniques" />
+      <item itemvalue="Application.MaximumSumOf_Distinct_SubArray" />
+      <item itemvalue="Application.Interview4" />
+      <item itemvalue="Application.Interview_2" />
+      <item itemvalue="Application.Interview_3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.checkPalindrome" />
-        <item itemvalue="Application.TwoSum167LeetCode" />
-        <item itemvalue="Application.NumberOfSeniorCitizen" />
-        <item itemvalue="Application.LengthOfLastWord" />
-        <item itemvalue="Application.RemoveDuplicateFromSortedArray" />
+        <item itemvalue="Application.LongestSubstring_With_K_Uniques" />
+        <item itemvalue="Application.MaximumSumOf_Distinct_SubArray" />
+        <item itemvalue="Application.Interview4" />
+        <item itemvalue="Application.Interview_3" />
+        <item itemvalue="Application.Interview_2" />
       </list>
     </recent_temporary>
   </component>
@@ -376,7 +382,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776017733881</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Added practice Question">
+      <option name="closed" value="true" />
+      <created>1790140563297</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1790140563297</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -389,7 +403,8 @@
     <MESSAGE value="git commit -m &quot;Re arrange Array Elements: Added brute force code&quot;" />
     <MESSAGE value="git commit -m &quot;NeetCode : Remove Elements - Added brute force code and also added optimezed approach [Two Pointer]&quot;" />
     <MESSAGE value="git commit -m &quot;Deleted package and classes&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="git commit -m &quot;Deleted package and classes&quot;" />
+    <MESSAGE value="Added practice Question" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added practice Question" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
