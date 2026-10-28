@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="Sliding window medium problem , without window size given">
-      <change afterPath="$PROJECT_DIR$/src/neetCode/array/RemoveDuplicateSortedArrray_Optimized.java" afterDir="false" />
+    <list default="true" id="043a9481-670b-4bbe-992a-45c4ff987174" name="Changes" comment="solved Leetcode question : LC 26&#10;&#10;problem Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&amp;envId=array">
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/BestTimeToBuyAndSellStock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/PlusOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/easy/SingleNumber_LeetCode136.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaxProductSubArray.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/leetcode/medium/MaximumSubArray_LeetCode_53_Kadens.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,6 +58,7 @@
     "Application.AddindSpaceString.executor": "Run",
     "Application.Application.executor": "Run",
     "Application.ArrayList_IterationTechnique.executor": "Run",
+    "Application.BestTimeToBuyAndSellStock.executor": "Run",
     "Application.Caller.executor": "Run",
     "Application.Capitalise.executor": "Run",
     "Application.CheckIfArrayIsSortedOrNot.executor": "Run",
@@ -101,8 +106,10 @@
     "Application.LongestCommonPrefix.executor": "Run",
     "Application.LongestSubstring_With_K_Uniques.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.MaxProductSubArray.executor": "Run",
     "Application.MaximumConsecutiveOne_Array.executor": "Run",
     "Application.MaximumSubArraySum_whenNo_DuplicatesInArray.executor": "Run",
+    "Application.MaximumSubArray_LeetCode_53_Kadens.executor": "Debug",
     "Application.MaximumSumOf_Distinct_SubArray.executor": "Run",
     "Application.MergeSortedArray_whenAllAreUniqueAndSorted.executor": "Run",
     "Application.MergeStringAlternatively.executor": "Run",
@@ -136,6 +143,7 @@
     "Application.SearchTargetOptimized.executor": "Run",
     "Application.SecondHighestElement.executor": "Run",
     "Application.SecondLargestElementInArray.executor": "Debug",
+    "Application.SingleNumber_LeetCode136.executor": "Run",
     "Application.SleepDemo.executor": "Debug",
     "Application.Solution.executor": "Run",
     "Application.SortArrayInLexicoGraphically.executor": "Run",
@@ -184,15 +192,15 @@
     "settings.editor.selected.configurable": "editor.preferences.completion"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.RemoveDuplicateSortedArrray_Optimized">
-    <configuration name="Fruit_Into_Basket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.MaxProductSubArray">
+    <configuration name="BestTimeToBuyAndSellStock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pattern.slidingWindow.medium.Fruit_Into_Basket" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.BestTimeToBuyAndSellStock" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.slidingWindow.medium.*" />
+          <option name="PATTERN" value="leetcode.easy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,14 +208,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MaximumSubArraySum_whenNo_DuplicatesInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaxProductSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pattern.slidingWindow.medium.MaximumSubArraySum_whenNo_DuplicatesInArray" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MaxProductSubArray" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pattern.slidingWindow.medium.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -215,14 +223,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RemoveDuplicateSortedArrray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MaximumSubArray_LeetCode_53_Kadens" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="neetCode.array.RemoveDuplicateSortedArrray" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.medium.MaximumSubArray_LeetCode_53_Kadens" />
       <module name="DSAWorkspaceSheetBased" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="neetCode.array.*" />
+          <option name="PATTERN" value="leetcode.medium.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -245,25 +253,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
+    <configuration name="SingleNumber_LeetCode136" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="leetcode.easy.SingleNumber_LeetCode136" />
       <module name="DSAWorkspaceSheetBased" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="leetcode.easy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="maximumAverageSubArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration default="true" type="Application" factoryName="Application">
       <option name="ALTERNATIVE_JRE_PATH" value="corretto-21" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
-      <option name="MAIN_CLASS_NAME" value="pattern.slidingWindow.easy.maximumAverageSubArray" />
       <module name="DSAWorkspaceSheetBased" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="pattern.slidingWindow.easy.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -280,19 +288,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.RemoveDuplicateSortedArrray" />
+      <item itemvalue="Application.MaxProductSubArray" />
+      <item itemvalue="Application.BestTimeToBuyAndSellStock" />
+      <item itemvalue="Application.MaximumSubArray_LeetCode_53_Kadens" />
+      <item itemvalue="Application.SingleNumber_LeetCode136" />
       <item itemvalue="Application.RemoveDuplicateSortedArrray_Optimized" />
-      <item itemvalue="Application.Fruit_Into_Basket" />
-      <item itemvalue="Application.MaximumSubArraySum_whenNo_DuplicatesInArray" />
-      <item itemvalue="Application.maximumAverageSubArray" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MaxProductSubArray" />
+        <item itemvalue="Application.MaximumSubArray_LeetCode_53_Kadens" />
+        <item itemvalue="Application.SingleNumber_LeetCode136" />
+        <item itemvalue="Application.BestTimeToBuyAndSellStock" />
         <item itemvalue="Application.RemoveDuplicateSortedArrray_Optimized" />
-        <item itemvalue="Application.RemoveDuplicateSortedArrray" />
-        <item itemvalue="Application.Fruit_Into_Basket" />
-        <item itemvalue="Application.maximumAverageSubArray" />
-        <item itemvalue="Application.MaximumSubArraySum_whenNo_DuplicatesInArray" />
       </list>
     </recent_temporary>
   </component>
@@ -409,7 +417,15 @@
       <option name="project" value="LOCAL" />
       <updated>1792073237309</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="solved Leetcode question : LC 26&#10;&#10;problem Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&amp;envId=array">
+      <option name="closed" value="true" />
+      <created>1792167431230</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1792167431230</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -426,7 +442,8 @@
     <MESSAGE value="Added Java 8 interview Question with Sliding window medium problem question practice" />
     <MESSAGE value="Practice sliding window few medium level question" />
     <MESSAGE value="Sliding window medium problem , without window size given" />
-    <option name="LAST_COMMIT_MESSAGE" value="Sliding window medium problem , without window size given" />
+    <MESSAGE value="solved Leetcode question : LC 26&#10;&#10;problem Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&amp;envId=array" />
+    <option name="LAST_COMMIT_MESSAGE" value="solved Leetcode question : LC 26&#10;&#10;problem Link : https://leetcode.com/problems/remove-duplicates-from-sorted-array/?envType=problem-list-v2&amp;envId=array" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -501,6 +518,11 @@
           <line>24</line>
           <option name="timeStamp" value="23" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/leetcode/medium/MaximumSubArray_LeetCode_53_Kadens.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
     <watches-manager>
@@ -513,6 +535,9 @@
         <watch expression="nums[end] != nums[start]" />
         <watch expression="nums[end]" />
         <watch expression="nums[start]" />
+        <watch expression="prices[i] &lt; minStockPrice" />
+        <watch expression="minStockPrice = prices[i]" />
+        <watch expression="minStockPrice" />
       </configuration>
       <inline-watch fileUrl="file://$PROJECT_DIR$/src/tufPlus/hash/HighestOccuringElement.java" line="22">
         <watch expression="array[i] == array[j]" />
