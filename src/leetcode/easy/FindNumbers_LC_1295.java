@@ -59,6 +59,7 @@ public class FindNumbers_LC_1295 {
 
     // Approach 2: each / 10 drops one digit. 0 is a special case (1 digit).
     private static int countDigits(int num) {
+        int evenCount = 0;
         if (num == 0) {
             return 1;
         }
@@ -67,6 +68,9 @@ public class FindNumbers_LC_1295 {
             num = num / 10;
             digits++;
         }
-        return digits;
+        if(digits % 2 == 0){
+            evenCount++;
+        }
+        return evenCount;
     }
 }
